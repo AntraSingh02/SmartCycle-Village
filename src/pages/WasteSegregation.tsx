@@ -13,7 +13,7 @@ export default function WasteSegregation() {
           <p className="text-slate-500 mt-2">Identify and categorize waste types using real-time AI recognition.</p>
         </div>
         <a 
-          href="http://localhost:8502" 
+          href="https://appcloudpy-9wevu6uune2qu9qptpajfs.streamlit.app/" 
           target="_blank" 
           rel="noopener noreferrer"
           className="inline-flex items-center justify-center px-4 py-2 border border-slate-200 text-sm font-medium rounded-xl text-slate-700 bg-white hover:bg-slate-50 transition-colors gap-2"
