@@ -29,7 +29,7 @@ export default function WasteSegregation() {
           <div className="bg-white rounded-3xl p-2 shadow-sm border border-slate-200 overflow-hidden">
             <div className="h-[750px] rounded-2xl overflow-hidden relative z-0 bg-slate-100 flex items-center justify-center">
               <iframe 
-                src="http://localhost:8502" 
+                src="https://appcloudpy-9wevu6uune2qu9qptpajfs.streamlit.app/" 
                 title="AI Waste Segregation Tool"
                 className="w-full h-full border-none"
                 loading="lazy"
