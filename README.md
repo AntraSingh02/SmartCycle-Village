@@ -1,20 +1,51 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# SmartCycle Villages
 
-# Run and deploy your AI Studio app
+SmartCycle Villages is a comprehensive web platform dedicated to optimizing plastic waste management, rewarding rural communities with Green Points, and proactively monitoring environmental impact through an analytical dashboard.
 
-This contains everything you need to run your app locally.
+## 🌟 Key Features
 
-View your app in AI Studio: https://ai.studio/apps/64644ea7-2309-4f4b-96c9-4f4f2d308327
+- **Waste Reporting System:** Users can quickly submit plastic waste collection logs, complete with optional photo uploads.
+- **Analytical Dashboard:** Real-time metrics visualizing the total collected plastic, simulated route distances, and waste composition.
+- **Green Rewards Program:** Gamified community engagement where residents earn "Green Points" for waste segregation that can be redeemed for real-world items.
+- **Functional Admin Panel:** A secure interface for administrators to approve pending waste reports, manually evaluate user accounts, and maintain rewards.
 
-## Run Locally
+## 🚀 Tech Stack
 
-**Prerequisites:**  Node.js
+- **Framework:** React 19 + TypeScript
+- **Tooling:** Vite
+- **Styling & Animation:** Tailwind CSS, Lucide Icons, and Motion
+- **Data Visualization:** Chart.js, React-ChartJS-2
 
+## 💻 Getting Started
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed on your system.
+
+### Local Development Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/AntraSingh02/SmartCycle-Village.git
+   cd SmartCycle-Village
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Configure environment variables (if applicable):**
+   Copy the `.env.example` file to create your own configuration.
+   ```bash
+   cp .env.example .env
+   ```
+
+4. **Run the local development server:**
+   ```bash
+   npm run dev
+   ```
+
+5. Open your web browser and navigate to `http://localhost:3000`.
+
+---
+*Built to empower communities and keep the environment clean.*
