@@ -1,0 +1,327 @@
+{
+  "status": "success",
+  "totalDistance": 349.2,
+  "totalCollected": 700,
+  "fuelEstimate": 52.4,
+  "capacity": 120,
+  "tours": [
+    {
+      "id": "route-1",
+      "driverName": "Ramesh Kumar",
+      "vehicleId": "CG-04-EV-2024",
+      "path": [
+        "Hub",
+        "Dharampura",
+        "Dharampura-2",
+        "Jaitpuri",
+        "Amgaon",
+        "Hub"
+      ],
+      "wasteCollected": 112,
+      "distance": 21.6,
+      "estimatedTimeMins": 54,
+      "status": "Pending Dispatch"
+    },
+    {
+      "id": "route-2",
+      "driverName": "Suresh Patil",
+      "vehicleId": "CG-04-EV-4012",
+      "path": [
+        "Hub",
+        "Nawagaon",
+        "Ekta Nagar",
+        "Lohara",
+        "Bharni",
+        "Hub"
+      ],
+      "wasteCollected": 110,
+      "distance": 34.7,
+      "estimatedTimeMins": 87,
+      "status": "Pending Dispatch"
+    },
+    {
+      "id": "route-3",
+      "driverName": "Amit Sharma",
+      "vehicleId": "CG-04-EV-8831",
+      "path": [
+        "Hub",
+        "Manpur",
+        "Ghoghra",
+        "Yashpur",
+        "Fulwari",
+        "Hub"
+      ],
+      "wasteCollected": 113,
+      "distance": 60.4,
+      "estimatedTimeMins": 151,
+      "status": "Pending Dispatch"
+    },
+    {
+      "id": "route-4",
+      "driverName": "Vijay Singh",
+      "vehicleId": "CG-04-EV-0911",
+      "path": [
+        "Hub",
+        "Vijaynagar",
+        "Ishwarpur",
+        "Ramgarh",
+        "Quara",
+        "Hub"
+      ],
+      "wasteCollected": 108,
+      "distance": 88.6,
+      "estimatedTimeMins": 221,
+      "status": "Pending Dispatch"
+    },
+    {
+      "id": "route-5",
+      "driverName": "Rajesh Gupta",
+      "vehicleId": "CG-04-EV-5561",
+      "path": [
+        "Hub",
+        "Karanji",
+        "Parsa",
+        "Chandli",
+        "Hirapur",
+        "Hub"
+      ],
+      "wasteCollected": 111,
+      "distance": 62.1,
+      "estimatedTimeMins": 155,
+      "status": "Pending Dispatch"
+    },
+    {
+      "id": "route-6",
+      "driverName": "Manoj Deshmukh",
+      "vehicleId": "CG-04-EV-7722",
+      "path": [
+        "Hub",
+        "Udaypur",
+        "Tilda",
+        "Odgi",
+        "Sarangpur",
+        "Hub"
+      ],
+      "wasteCollected": 114,
+      "distance": 56.3,
+      "estimatedTimeMins": 141,
+      "status": "Pending Dispatch"
+    },
+    {
+      "id": "route-7",
+      "driverName": "Kishore Nayak",
+      "vehicleId": "CG-04-EV-1123",
+      "path": [
+        "Hub",
+        "Wardha",
+        "Hub"
+      ],
+      "wasteCollected": 32,
+      "distance": 25.6,
+      "estimatedTimeMins": 64,
+      "status": "Pending Dispatch"
+    }
+  ],
+  "villages": [
+    {
+      "name": "Amgaon",
+      "wasteAmount": 28,
+      "coordinates": [
+        21.315868,
+        81.581796
+      ]
+    },
+    {
+      "name": "Bharni",
+      "wasteAmount": 34,
+      "coordinates": [
+        21.321509,
+        81.657483
+      ]
+    },
+    {
+      "name": "Chandli",
+      "wasteAmount": 22,
+      "coordinates": [
+        21.319154,
+        81.463348
+      ]
+    },
+    {
+      "name": "Dharampura",
+      "wasteAmount": 40,
+      "coordinates": [
+        21.355024,
+        81.578389
+      ]
+    },
+    {
+      "name": "Ekta Nagar",
+      "wasteAmount": 25,
+      "coordinates": [
+        21.309845,
+        81.611557
+      ]
+    },
+    {
+      "name": "Fulwari",
+      "wasteAmount": 18,
+      "coordinates": [
+        21.349572,
+        81.705242
+      ]
+    },
+    {
+      "name": "Ghoghra",
+      "wasteAmount": 31,
+      "coordinates": [
+        21.379565,
+        81.608955
+      ]
+    },
+    {
+      "name": "Hirapur",
+      "wasteAmount": 26,
+      "coordinates": [
+        21.267405,
+        81.507651
+      ]
+    },
+    {
+      "name": "Ishwarpur",
+      "wasteAmount": 35,
+      "coordinates": [
+        21.350973,
+        81.71983
+      ]
+    },
+    {
+      "name": "Jaitpuri",
+      "wasteAmount": 19,
+      "coordinates": [
+        21.336957,
+        81.580937
+      ]
+    },
+    {
+      "name": "Karanji",
+      "wasteAmount": 30,
+      "coordinates": [
+        21.375087,
+        81.467696
+      ]
+    },
+    {
+      "name": "Lohara",
+      "wasteAmount": 24,
+      "coordinates": [
+        21.306778,
+        81.639146
+      ]
+    },
+    {
+      "name": "Manpur",
+      "wasteAmount": 38,
+      "coordinates": [
+        21.399993,
+        81.579298
+      ]
+    },
+    {
+      "name": "Nawagaon",
+      "wasteAmount": 27,
+      "coordinates": [
+        21.35814,
+        81.61991
+      ]
+    },
+    {
+      "name": "Odgi",
+      "wasteAmount": 21,
+      "coordinates": [
+        21.396651,
+        81.498184
+      ]
+    },
+    {
+      "name": "Parsa",
+      "wasteAmount": 33,
+      "coordinates": [
+        21.377899,
+        81.462949
+      ]
+    },
+    {
+      "name": "Quara",
+      "wasteAmount": 17,
+      "coordinates": [
+        21.158715,
+        81.557405
+      ]
+    },
+    {
+      "name": "Ramgarh",
+      "wasteAmount": 36,
+      "coordinates": [
+        21.252289,
+        81.6798
+      ]
+    },
+    {
+      "name": "Sarangpur",
+      "wasteAmount": 29,
+      "coordinates": [
+        21.386612,
+        81.488464
+      ]
+    },
+    {
+      "name": "Tilda",
+      "wasteAmount": 23,
+      "coordinates": [
+        21.402082,
+        81.508477
+      ]
+    },
+    {
+      "name": "Udaypur",
+      "wasteAmount": 41,
+      "coordinates": [
+        21.322834,
+        81.573785
+      ]
+    },
+    {
+      "name": "Vijaynagar",
+      "wasteAmount": 20,
+      "coordinates": [
+        21.33899,
+        81.66905
+      ]
+    },
+    {
+      "name": "Wardha",
+      "wasteAmount": 32,
+      "coordinates": [
+        21.378905,
+        81.628773
+      ]
+    },
+    {
+      "name": "Yashpur",
+      "wasteAmount": 26,
+      "coordinates": [
+        21.38081,
+        81.640157
+      ]
+    },
+    {
+      "name": "Dharampura-2",
+      "wasteAmount": 25,
+      "coordinates": [
+        21.3585,
+        81.5765
+      ]
+    }
+  ]
+}
