@@ -29,10 +29,12 @@ export default function WasteSegregation() {
           <div className="bg-white rounded-3xl p-2 shadow-sm border border-slate-200 overflow-hidden">
             <div className="h-[750px] rounded-2xl overflow-hidden relative z-0 bg-slate-100 flex items-center justify-center">
               <iframe 
-                src="https://appcloudpy-9wevu6uune2qu9qptpajfs.streamlit.app/" 
+                src="https://appcloudpy-9wevu6uune2qu9qptpajfs.streamlit.app/?embed=true" 
                 title="AI Waste Segregation Tool"
                 className="w-full h-full border-none"
                 loading="lazy"
+                allow="camera;microphone"
+                sandbox="allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-storage-access-by-user-activation"
               />
               {/* Fallback info displayed if the iframe fails or while loading */}
               <div className="absolute inset-0 -z-10 flex flex-col items-center justify-center p-8 text-center">
