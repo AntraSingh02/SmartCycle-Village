@@ -39,7 +39,7 @@ export default function WasteSegregation() {
                 <ShieldAlert className="w-16 h-16 text-amber-500 mb-4" />
                 <h3 className="text-xl font-bold text-slate-800">Connection Check</h3>
                 <p className="text-slate-500 mt-2 max-w-md">
-                  Ensure the Segregation AI server is running on <code className="bg-slate-200 px-1.5 py-0.5 rounded text-slate-700">localhost:8502</code> to see the interactive recognition tool.
+                  Ensure the Segregation AI server is running on <code className="bg-slate-200 px-1.5 py-0.5 rounded text-slate-700">https://appcloudpy-9wevu6uune2qu9qptpajfs.streamlit.app/</code> to see the interactive recognition tool.
                 </p>
               </div>
             </div>
