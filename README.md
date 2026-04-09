@@ -26,7 +26,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your system.
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/AntraSingh02/SmartCycle-Village.git
-   cd SmartCycle-Village
+   cd SmartCycle-Village/used
    ```
 
 2. **Install dependencies:**
@@ -34,18 +34,40 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your system.
    npm install
    ```
 
-3. **Configure environment variables (if applicable):**
-   Copy the `.env.example` file to create your own configuration.
-   ```bash
-   cp .env.example .env
-   ```
-
-4. **Run the local development server:**
+3. **Run the local development server:**
    ```bash
    npm run dev
    ```
 
-5. Open your web browser and navigate to `http://localhost:3000`.
+4. Open your web browser and navigate to `http://localhost:5173` (or the port shown in your terminal).
+
+---
+
+## 🤖 AI Waste Segregation (Local Setup)
+
+To use the **AI Waste Segregation** feature with a local real-time webcam scanner, you need to run the detection model separately.
+
+### 1. Clone the Detection Repository
+```bash
+git clone https://github.com/AntraSingh02/YOLO-Waste-Detection.git
+cd YOLO-Waste-Detection
+```
+
+### 2. Install Python Dependencies
+Make sure you have [Python](https://www.python.org/) installed, then run:
+```bash
+pip install -r used/requirements.txt
+```
+
+### 3. Run the AI Model
+```bash
+streamlit run used/app.py
+```
+*Note: The main platform will automatically interface with your local model once it is running on `http://localhost:8501`.*
+
+### ☁️ Cloud vs Local
+- The **Cloud Version** (built into the platform) uses a snapshot interface for compatibility.
+- The **Local Version** (via the setup above) allows for continuous, real-time webcam scanning.
 
 ---
 *Built to empower communities and keep the environment clean.*
